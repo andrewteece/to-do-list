@@ -1,15 +1,8 @@
 # To-Do List Application created with Vite
-Welcome to the To-Do List App! This project is part of the React Tutorials series and is built using React. It is a simple, yet effective, application to manage your daily tasks.
+Welcome to the To-Do List App! It is a simple, yet effective, application to manage your daily tasks.
 
 ## About the Project
 The To-Do List App is a basic React application designed to help users manage their tasks efficiently. This project serves as a practical example for learning and implementing React concepts such as components, state management, and event handling.
-
-Watch the full Build and Deploy To-Do List Step-by-Step Tutorial on YouTube:
-<div align="left">
-      <a href="https://www.youtube.com/watch?v=-vh-BBquDTU">
-         <img src="https://img.youtube.com/vi/-vh-BBquDTU/0.jpg" alt="Watch Build To-Do List Course on YouTube">
-      </a>
-</div>
 
 ## Deploying Vite App to GitHub Pages
 
