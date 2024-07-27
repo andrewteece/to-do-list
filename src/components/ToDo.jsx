@@ -11,7 +11,7 @@ function ToDo({ todo, toggleTodoCompletion, handleDeleteTodo }) {
             onChange={() => toggleTodoCompletion(id)}
             >
             </input>
-            <div className="task-text" onClick={() =-> toggleTodoCompletion(id)}>
+            <div className="task-text" onClick={() => toggleTodoCompletion(id)}>
                 {task}
             </div>
             <button className="delete-btn" onClick={() => handleDeleteTodo(id)}>
