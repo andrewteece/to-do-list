@@ -3,13 +3,13 @@ import AddToDo from "./AddToDo";
 import ToDo from "./ToDo";
 
 function ToDoList() {
-    const [todos, setToDos] = useState([]);
+    const [todos, setTodos] = useState([]);
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
         const storedTodos = localStorage.getItem("todos");
         if (storedTodos) {
-            setToDos(JSON.parse(storedTodos));
+            setTodos(JSON.parse(storedTodos));
         }
         setLoaded(true);
     }, []);
@@ -21,7 +21,7 @@ function ToDoList() {
 
     const handleDeleteTodo = (deleteId) => {
         const newTodos = todos.filter((todo) => todo.id !== deleteId);
-        setToDos(newTodos);
+        setTodos(newTodos);
     };
 
     const toggleTodoCompletion = (todoId) => {
@@ -32,7 +32,7 @@ function ToDoList() {
             return todo;
         });
         
-        setToDos(newTodos);
+        setTodos(newTodos);
     };
 
     return (
